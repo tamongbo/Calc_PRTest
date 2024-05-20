@@ -1,7 +1,7 @@
 class Calc {
 public:
 	int getSum(int a, int b) {
-		return 0;
+		return a + b;
 	}
 	int getGop(int a, int b) {
 		return 0;
@@ -10,7 +10,7 @@ public:
 		return 0;
 	}
 	int getMinus(int a, int b) {
-		return 0;
+		return (a - b);
 	}
 	int getDivide(int a, int b) {
 		return 0;
