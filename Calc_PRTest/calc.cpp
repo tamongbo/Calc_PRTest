@@ -23,6 +23,6 @@ public:
 		return a / b;
 	}
 	int getSumSum(int a, int b, int c) {
-		return 0;
+		return a+b+c;
 	}
 };

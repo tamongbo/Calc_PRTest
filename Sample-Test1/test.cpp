@@ -21,3 +21,15 @@ TEST(TestCal, getZegopTest) {
 	EXPECT_EQ(16, calc.getZegop(4));
 	EXPECT_EQ(25, calc.getZegop(5));
 }
+
+TEST(CalcTest, getSumSumTestPositiveNum) {
+	Calc calc;
+
+	EXPECT_EQ(6, calc.getSumSum(1, 2, 3));
+}
+
+TEST(CalcTest, getSumSumTestNegativeNum) {
+	Calc calc;
+
+	EXPECT_EQ(-6, calc.getSumSum(-1, -2, -3));
+}
